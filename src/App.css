@@ -1,0 +1,72 @@
+  body {
+    font-family: monospace, Helvetica, sans-serif;
+    background: #f8fafc;
+    height: 100vh;
+    line-height: 1.6;
+    font-weight: 300;
+    font-weight: bold;
+  }
+  
+  .navBar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background: #990000;
+  }
+  
+  .navBar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .navBar li {
+    padding: 1rem;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+  .navBar ul li a {
+    text-decoration: none;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  
+  .navBar ul li a:hover {
+    color: #FFC72C;
+    border-bottom: 5px solid #FFC72C;
+  }
+
+  .App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+  button {
+    margin: 8px;
+    padding: 2px;
+  }
+  
+  input {
+    margin: 3px;
+  }
+  
+  @media only screen and (max-width: 915px) {
+    .navBar ul li a {
+      font-size: 20px;
+    }
+    .navBar ul li a:hover {
+      color: #e69500;
+      border-bottom: none;
+    }
+  }
