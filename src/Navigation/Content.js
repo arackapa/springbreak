@@ -10,13 +10,13 @@ function Header() {
         <nav className="navBar">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/springbreak/home">Home</Link>
             </li>
             <li>
-              <Link to="/data">Data</Link>
+              <Link to="/springbreak/data">Data</Link>
             </li>
             <li>
-              <Link to="/form">Form</Link>
+              <Link to="/springbreak/form">Form</Link>
             </li>
           </ul>
         </nav>

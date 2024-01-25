@@ -43,6 +43,20 @@
     border-bottom: 5px solid #FFC72C;
   }
 
+  @media (max-width: 768px) {
+    .navBar li {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .navBar li {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+
   .App {
     text-align: center;
     display: flex;

@@ -8,9 +8,9 @@ import TableauChart from "../Components/TableauChart";
 function Main() {
   return (
        <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/data/" element={<TableauChart />} />
-        <Route path="/form/" element={<GoogleForm />} />
+        <Route path="/springbreak/home/" element={<Home />} />
+        <Route path="/springbreak/data/" element={<TableauChart />} />
+        <Route path="/springbreak/form/" element={<GoogleForm />} />
       </Routes>
   );
 }
