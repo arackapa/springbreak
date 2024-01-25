@@ -39,9 +39,8 @@ function TableauChart() {
 }
 
 const vizStyle = {
-  width: "1000px", // Set width to auto to allow it to take the available width
-  height: "700px",
-  margin: "auto"
+  width: "1200px", 
+  height: "1400px"
 };
 
 export default TableauChart;
