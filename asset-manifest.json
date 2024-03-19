@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/springbreak/home/static/css/main.0ec4aef3.css",
-    "main.js": "/springbreak/home/static/js/main.e2428c9a.js",
-    "index.html": "/springbreak/home/index.html",
-    "main.0ec4aef3.css.map": "/springbreak/home/static/css/main.0ec4aef3.css.map",
-    "main.e2428c9a.js.map": "/springbreak/home/static/js/main.e2428c9a.js.map"
+    "main.css": "/springbreak/static/css/main.0ec4aef3.css",
+    "main.js": "/springbreak/static/js/main.e2428c9a.js",
+    "index.html": "/springbreak/index.html",
+    "main.0ec4aef3.css.map": "/springbreak/static/css/main.0ec4aef3.css.map",
+    "main.e2428c9a.js.map": "/springbreak/static/js/main.e2428c9a.js.map"
   },
   "entrypoints": [
     "static/css/main.0ec4aef3.css",
