@@ -3,7 +3,7 @@ const { tableau } = window;
 
 function TableauChart() {
   const [url] = useState(
-    "https://public.tableau.com/shared/8QQCYH2HP?:display_count=n&:origin=viz_share_link"
+    "https://public.tableau.com/views/SpringBreakDataVisualization/SpringBreakDataVisualizations?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
   );
   const vizContainerRef = useRef(null);
   let viz = useRef(null);
